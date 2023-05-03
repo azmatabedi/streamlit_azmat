@@ -2,7 +2,6 @@
 import os
 from googleapiclient.discovery import build
 from google.oauth2 import service_account
-from dotenv import load_dotenv
 import pandas as pd
 # import mysql.connector
 def load1_b():

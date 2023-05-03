@@ -14,7 +14,7 @@ def load1_b():
     # df=pd.DataFrame(result,columns=colums_name)
     # load_dotenv()
     SCOPES = ['https://www.googleapis.com/auth/spreadsheets','https://www.googleapis.com/auth/drive'] #os.getenv('SCOPE')
-    SERVICE_ACCOUNT_FILE = 'D:/Assignment/assignment3.json'#os.getenv('SERVICE_ACCOUNT_FILE')
+    SERVICE_ACCOUNT_FILE = 'assignment3.json'#os.getenv('SERVICE_ACCOUNT_FILE')
     SAMPLE_SPREADSHEET_ID = '1JDttND5GyfWqUQ_vG-EmLelfh7JxGLb3VR6LkjyV9LY'#os.getenv('SAMPLE_SPREADSHEET_ID')
     cred=None
     cred = service_account.Credentials.from_service_account_file(
